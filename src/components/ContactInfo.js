@@ -24,6 +24,7 @@ const theme1 = createMuiTheme({
 
 export default class ContactInfo extends Component {
 
+    
     render() {
         return (
             <ThemeProvider theme = {theme1}>
@@ -35,7 +36,7 @@ export default class ContactInfo extends Component {
                     <div style={{paddingBottom: '.5vw'}}></div>
                 </Row>
                 <Row>
-                    <Col> <Button variant ="outlined" color="primary">View Source on Github</Button></Col>
+                    <Col> <Button onClick={() => {window.location.href = "https://github.com/jacobalang/PersonalWebsite"; }} variant ="outlined" color="primary">View Source on Github</Button></Col>
                 </Row>
                 <Row style={{padding: '1vw'}}>
                 </Row>
