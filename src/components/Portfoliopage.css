@@ -1,33 +1,23 @@
 .intro {
-    font-size: 1rem;
-font-weight: 400;
 line-height: 1.5;
 color: #212529;
 font-family: inconsolata, monospace;
-box-sizing: border-box;
 text-align: center;
-padding: 1vw;
+font-weight: 700;
 }
 
 .ProjectsTitle {
-    font-weight: 400;
-    font-family: inconsolata, monospace;
+font-family: inconsolata, monospace;
 line-height: 1.5;
-box-sizing: border-box;
 margin-bottom: 1rem;
-font-size: 2.5vw;
 color: #e6e6e6!important;
 
 }
 
 .intro-header {
-    text-align: center;
-box-sizing: border-box;
-margin-top: 0;
+text-align: center;
 line-height: 1.2;
 color: rgb(230, 230, 230) !important;
-font-size: 3.5vw;
-font-weight: 700;
 margin-bottom: 0.3em;
 }
 
@@ -35,11 +25,8 @@ margin-bottom: 0.3em;
  
 font-family: inconsolata, monospace;
 text-align: center;
-box-sizing: border-box;
 line-height: 1.2;
 color: rgb(230, 230, 230) !important;
-margin: auto;
-font-size: 2vw;
 font-weight: lighter;
 margin-top: 0.3em;
 margin-bottom: 0.8em;
@@ -47,31 +34,41 @@ margin-bottom: 0.8em;
 }
 
 .intro-contact {
-    font-family: inconsolata, monospace;
+font-family: inconsolata, monospace;
 text-align: center;
-box-sizing: border-box;
 line-height: 1.2;
 color: rgb(230, 230, 230) !important;
 margin: auto;
-font-size: 1.5vw;
+font-size: 1em;
 font-weight: lighter;
 margin-top: 0.3em;
 margin-bottom: 0.8em;
 }
 
+.project-header {
+        font-family: inconsolata, monospace;
+        text-align: center;
+        line-height: 1.2;
+        color: rgb(230, 230, 230) !important;
+        margin: auto;
+        font-size: 1.5vw;
+        font-weight: lighter;
+        margin-top: 0.3em;
+        margin-bottom: 0.8em;
+        
+
+}
+
 .about-text {
   
-flex-direction: left;
 font-weight: 400;
 line-height: 1.5;
 text-align: left;
 font-family: inconsolata,monospace;
-box-sizing: border-box;
 margin-bottom: 1rem;
 color: #e6e6e6!important;
-width: 80%;
 margin: auto;
-font-size: 1vw;
+font-size: 1em;
 }
 
 .about-picture {
@@ -79,22 +76,14 @@ font-size: 1rem;
 font-weight: 400;
 line-height: 1.5;
 color: #212529;
-text-align: center;
 font-family: inconsolata,monospace;
-vertical-align: middle;
-flex-shrink: 0;
 border: calc(8px + 0.2vw) solid transparent;
 background-origin: border-box;
 background-clip: content-box,border-box;
-background-size: cover;
-box-sizing: border-box;
 box-shadow: 0 0 5px 5px rgba(0,0,0,.25);
 border-radius: 50% 10%;
 background-image: url(''),linear-gradient(to bottom left,#f5554f,#f5554f9e);
-height: auto;
-max-width: 400px;
-width: 100%;
-
+margin: auto;
 }
 
 button {
@@ -106,9 +95,8 @@ button {
 .project-picture {
     height: auto;
     max-width: 400px;
-    width: 100%;
+    margin: auto;
+    padding: 2vw;
     
-   
-
 }
 

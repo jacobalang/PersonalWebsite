@@ -1,13 +1,15 @@
 .col {
     color: #e6e6e6!important;
-    font-weight: 100;
-    font-size: 1vw;
     text-align: center;
 }
-.contactInfo {
-    padding-top: 2vw;
-}
+
 
 .aboutSite {
     font-family: inconsolata,monospace !important;
+    color: #e6e6e6!important;
+    
+}
+
+.contactInfo {
+    padding: '10vw';
 }
