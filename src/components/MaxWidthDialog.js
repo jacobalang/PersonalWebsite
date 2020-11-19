@@ -41,8 +41,6 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function MaxWidthDialog() {
-  const classes = useStyles();
-  const [picSelected, setPic] = React.useState("1");
   const [currentPic, setCurrentPic] = React.useState(Commerce1);
   const [open, setOpen] = React.useState(false);
   const [fullWidth, setFullWidth] = React.useState(true);

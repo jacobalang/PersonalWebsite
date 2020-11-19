@@ -2,11 +2,9 @@ import React, {Component} from 'react';
 import './Portfoliopage.css';
 import ContactInfo from '../components/ContactInfo';
 import mepic from '../images/me.jpg';
-import commerce1 from '../images/commerce1.png';
 import SchoolIcon from '@material-ui/icons/School';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col'
-import Container from 'react-bootstrap/Container';
 import MaxWidthDialog from '../components/MaxWidthDialog'
 import EmailIcon from '@material-ui/icons/Email';
 export default class Portfoliopage extends Component {
@@ -69,7 +67,7 @@ export default class Portfoliopage extends Component {
                     </Col>
                     <Col md={4}>
               
-                        <Row><MaxWidthDialog vari/></Row>
+                        <Row><MaxWidthDialog/></Row>
                     </Col>
                 </Row>
                 <ContactInfo/>
