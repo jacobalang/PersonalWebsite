@@ -59,7 +59,6 @@ export default class Portfoliopage extends Component {
                                     <li>Create rules for transactions that would trigger notifications</li>
                                 </ul>
                                 <p>
-                                <br/>
                                 What I learned: </p>
                                 <ul>
                                     <li>Persistent user authentication</li>
