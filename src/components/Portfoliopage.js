@@ -69,13 +69,12 @@ export default class Portfoliopage extends Component {
    
                     </Col>
                     <Col md={4}>
-                    <Row>
-                    <Col md={2}><img className="project-picture" src={commerce1} alt="Jacob Gleinser"></img></Col>
-                        </Row>
-                        <Row><MaxWidthDialog/></Row>
+              
+                        <Row><MaxWidthDialog vari/></Row>
                     </Col>
                 </Row>
                 <ContactInfo/>
+                <div style={{paddingBottom:'2vw'}}></div>
             </div>
             
         )

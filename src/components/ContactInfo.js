@@ -38,7 +38,7 @@ export default class ContactInfo extends Component {
                 <Row>
                     <Col> <Button onClick={() => {window.location.href = "https://github.com/jacobalang/PersonalWebsite"; }} variant ="outlined" color="primary"> View Source on Github</Button></Col>
                 </Row>
-                <Row style={{padding: '1vw'}}>
+                <Row>
                 </Row>
                 
             </div>
