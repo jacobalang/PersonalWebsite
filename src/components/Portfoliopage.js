@@ -67,7 +67,7 @@ export default class Portfoliopage extends Component {
                     </Col>
                     <Col md={4}>
               
-                        <Row><MaxWidthDialog/></Row>
+                        <Row><Button onClick={() => {window.location.href = "https://github.com/jacobalang/SchoolCommerceProject"; }} variant ="outlined" color="primary"> View Source on Github</Button></Row>
                     </Col>
                 </Row>
                 <ContactInfo/>
