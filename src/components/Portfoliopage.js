@@ -4,6 +4,7 @@ import ContactInfo from '../components/ContactInfo';
 import mepic from '../images/me.jpg';
 import SchoolIcon from '@material-ui/icons/School';
 import Row from 'react-bootstrap/Row';
+import Button from '@material-ui/core/Button';
 import Col from 'react-bootstrap/Col'
 import MaxWidthDialog from '../components/MaxWidthDialog'
 import EmailIcon from '@material-ui/icons/Email';
